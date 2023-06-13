@@ -6,13 +6,13 @@
 /*   By: rertzer <rertzer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/16 11:22:52 by rertzer           #+#    #+#             */
-/*   Updated: 2023/05/18 16:54:43 by rertzer          ###   ########.fr       */
+/*   Updated: 2023/06/13 16:02:33 by rertzer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Form.hpp"
 
-Form::Form():name("Formulaire A21"), signe_grade(150), exec_grade(150), is_signed(false)
+Form::Form():name("A21"), signe_grade(150), exec_grade(150), is_signed(false)
 {
 	std::cout << "Form default constructor called\n";
 }

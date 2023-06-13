@@ -6,7 +6,7 @@
 /*   By: rertzer <rertzer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 09:29:46 by rertzer           #+#    #+#             */
-/*   Updated: 2023/05/18 11:08:41 by rertzer          ###   ########.fr       */
+/*   Updated: 2023/06/13 15:58:45 by rertzer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	main()
 
 		std::cout << machin3 << std::endl << std::endl;
 
-		Bureaucrat	bigbos("Gerald", grade);
+		Bureaucrat	bigbos = Bureaucrat("Gerald", grade);
 		std::cout << bigbos << std::endl << std::endl;
 	}
 	catch (const std::exception &e)
