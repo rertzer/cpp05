@@ -6,7 +6,7 @@
 /*   By: rertzer <rertzer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/16 11:22:52 by rertzer           #+#    #+#             */
-/*   Updated: 2023/05/20 11:19:29 by rertzer          ###   ########.fr       */
+/*   Updated: 2023/06/15 09:24:05 by rertzer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,7 +91,7 @@ void	AForm::executeCheck(Bureaucrat const & executor) const
 
 std::ostream &operator<<(std::ostream &ost, const AForm &fm)
 {
-	ost << fm.getName() << " form:  signe grade " << fm.getSignegrade();
+	ost << fm.getName() << " :  signe grade " << fm.getSignegrade();
 	ost << ", execute grade " << fm.getExecgrade();
 	if (fm.getIssigned())
 		ost << " is signed";

@@ -6,7 +6,7 @@
 /*   By: rertzer <rertzer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/22 14:46:24 by rertzer           #+#    #+#             */
-/*   Updated: 2023/05/25 12:03:21 by rertzer          ###   ########.fr       */
+/*   Updated: 2023/06/15 09:22:10 by rertzer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,7 @@ AForm *	Intern::makeForm(std::string const & name, std::string const & target) c
 		if (name == form_name[i])
 		{
 			myform = (this->*maker[i])(target);
+			std::cout << "Intern creates " << name << std::endl;
 			return myform;
 		}
 	}
